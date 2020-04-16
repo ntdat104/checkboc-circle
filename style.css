@@ -28,13 +28,13 @@ body {
 
 .check-box:before {
   content: "";
-  width: 44px;
-  height: 44px;
+  width: 46px;
+  height: 46px;
   border-radius: 50%;
   background-color: white;
   position: absolute;
-  left: 3px;
-  top: 3px;
+  left: 2px;
+  top: 2px;
   transition: all 0.2s;
 }
 
@@ -43,5 +43,5 @@ body {
 }
 
 .check-box:checked:before {
-  left: 53px;
+  left: 52px;
 }
